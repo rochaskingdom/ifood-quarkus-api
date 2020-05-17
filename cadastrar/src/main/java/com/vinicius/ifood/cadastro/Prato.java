@@ -1,11 +1,13 @@
 package com.vinicius.ifood.cadastro;
 
+import io.quarkus.hibernate.orm.panache.PanacheEntity;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
 @Table(name = "prato")
-public class Prato {
+public class Prato extends PanacheEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

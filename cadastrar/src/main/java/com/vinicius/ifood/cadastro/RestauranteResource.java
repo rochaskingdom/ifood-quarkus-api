@@ -13,7 +13,6 @@ import java.util.Optional;
 public class RestauranteResource {
 
     @GET
-    @Produces(MediaType.APPLICATION_JSON)
     public List<Restaurante> listar() {
         return Restaurante.listAll();
     }
