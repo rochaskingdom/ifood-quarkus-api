@@ -1,9 +1,9 @@
-package org.acme;
+package com.vinicius.ifood.cadastro;
 
 import io.quarkus.test.junit.NativeImageTest;
 
 @NativeImageTest
-public class NativeExampleResourceIT extends ExampleResourceTest {
+public class NativeHelloResourceIT extends HelloResourceTest {
 
     // Execute the same tests but in native mode.
 }

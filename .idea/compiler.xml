@@ -7,9 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pedido" />
+        <module name="cadastro" />
         <module name="marketplace" />
-        <module name="code-with-quarkus" />
+        <module name="ifood" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="add" target="11" />
+      <module name="code-with-quarkus" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -7,10 +7,9 @@
     <groupId>com.vinicius.ifood</groupId>
     <artifactId>ifood</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
     <modules>
-        <module>cadastro</module>
+        <module>cadastrar</module>
         <module>marketplace</module>
         <module>pedido</module>
     </modules>

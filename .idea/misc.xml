@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="Quarkus" url="file://$PROJECT_DIR$/cadastro" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/add" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/cadastrar" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/code-with-quarkus" />
     <file type="Quarkus" url="file://$PROJECT_DIR$/marketplace" />
     <file type="Quarkus" url="file://$PROJECT_DIR$/pedido" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/xcadastro" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cadastro/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/add/pom.xml" />
+        <option value="$PROJECT_DIR$/cadastro/pom.xml" />
+        <option value="$PROJECT_DIR$/code-with-quarkus/pom.xml" />
+        <option value="$PROJECT_DIR$/xcadastro/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Amazon Corretto 11" project-jdk-type="JavaSDK">
