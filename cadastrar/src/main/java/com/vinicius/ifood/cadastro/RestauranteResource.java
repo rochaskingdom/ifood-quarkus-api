@@ -1,5 +1,7 @@
 package com.vinicius.ifood.cadastro;
 
+import org.eclipse.microprofile.openapi.annotations.tags.Tag;
+
 import javax.transaction.Transactional;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -10,6 +12,7 @@ import java.util.Optional;
 @Path("/restaurantes")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
+@Tag(name = "Restaurantes")
 public class RestauranteResource {
 
     @GET
